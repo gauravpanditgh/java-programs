@@ -19,7 +19,9 @@ public class PrimeNumbersInRange
 	        if(flag){
 	            System.out.print(i + "  ");
 	        }
-	        flag = true;
+			else{
+				flag = true;
+			}
 	    }
 		s.close();
 	}
