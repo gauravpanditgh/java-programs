@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-class Main{
+class EvenNumsDelete{
     public static ArrayList<Integer> processArray(ArrayList<Integer> nums){
         boolean flag = false;
         for(int i=0; i<nums.size(); i++){
