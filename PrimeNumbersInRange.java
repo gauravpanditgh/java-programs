@@ -10,6 +10,9 @@ public class PrimeNumbersInRange
 	    boolean flag = true;
 	    
 	    for(int i=low; i<=high; i++){
+			if(i == 0 || i == 1){
+				continue;
+			}
 	        for(int j=2; j<=i/2; j++){
 	            if(i%j == 0){
 	                flag = false;
